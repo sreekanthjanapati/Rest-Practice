@@ -20,10 +20,10 @@ public class HelloController {
 	HelloService service;
 
 	@GetMapping
-	public List<User> getUsersData(@ModelAttribute UsersInfo info ) {
+	public void getUsersData(@ModelAttribute UsersInfo info ) {
 
 		 System.out.println("name in the request param is:: "+info);
-		return service.getUsersInfo();
+		//return service.getUsersInfo();
 	}
 
 }
