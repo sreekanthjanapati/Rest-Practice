@@ -10,7 +10,7 @@ public class HelloController {
 	
 	public String getUsersData() {
 		
-		return "sreekanth";
+		return "kanth";
 	}
 	
 
